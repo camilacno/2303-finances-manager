@@ -29,7 +29,6 @@ export default function NewTransactionModal() {
   const {
     control,
     register,
-
     handleSubmit,
     reset,
     formState: { isSubmitting },

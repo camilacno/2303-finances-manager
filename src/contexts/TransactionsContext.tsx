@@ -1,6 +1,5 @@
 import { createContext, ReactNode, useEffect, useState } from 'react'
 import { api } from '../lib/axios'
-import { NewTransactionFormInputs } from '../components/NewTransactionModal'
 
 interface Transaction {
   id: number
