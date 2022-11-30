@@ -8,7 +8,7 @@ import {
 import logo from '../../assets/logo.svg'
 import NewTransactionModal from '../NewTransactionModal'
 
-export default function Header() {
+export function Header() {
   return (
     <HeaderContainer>
       <HeaderContent>
